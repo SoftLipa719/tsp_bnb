@@ -16,3 +16,7 @@
     Enter the complete input filename:
 
   After inputing filename(eg:  tsp-problem-10-20-50-10-1.txt), the algorithm will start.
+
+
+### Running script
+  put the data and executable file in the same directory, than use *run.sh* to run file in batches. 
