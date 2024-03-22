@@ -9,14 +9,11 @@
 
   Use the following instruction (substitute "Directory name" to your own directory name) to compile and run:
 
-    g++ -std=c++11 bnb_final_ver.cpp -o bnb_final_ver && "Directory Name"bnb_final_ver
+    g++ -std=c++11 bnb.cpp -o bnb
 
   Next, the program will require the file name with extension:
 
-    Enter the complete input filename:
-
-  After inputing filename(eg:  tsp-problem-10-20-50-10-1.txt), the algorithm will start.
-
+    ./bnb tsp-problem-10-20-50-10-1.txt
 
 ### Running script
   put the data and executable file in the same directory, than use *run.sh* to run file in batches. 
