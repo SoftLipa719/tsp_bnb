@@ -111,7 +111,7 @@ void branch_and_bound_tsp(const vector<vector<double>>& adj, vector<bool>& visit
     // Calculate combined value for each unvisited node and sort them
     for (int i = 0; i < N; ++i) {
         if (!visited[i]) {
-            Node treeNode; // 将结构体实例命名为 treeNode
+            Node treeNode;
             treeNode.index = i;
             treeNode.combined_value = cost + adj[node][i] + compute_mst_cost(adj, visited);
             unvisited_nodes.push_back(treeNode);
