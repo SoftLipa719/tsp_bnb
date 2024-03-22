@@ -135,11 +135,9 @@ void branch_and_bound_tsp(const vector<vector<double>>& adj, vector<bool>& visit
     }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     // Input filename from user
-    string fname;
-    cout << "Enter the complete input filename: ";
-    cin >> fname;
+    string fname = argv[1];
 
     // Read distance matrix from file
     vector<vector<double>> adj = read_distance_matrix(fname);
